@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Music Lover </title>
+    <style>
+        /* --- header --- */
+        header{
+            background-color: rgba(0, 0, 0, 0.548);
+            color: wheat;
+            text-align: center; 
+            margin-top: 2%;  
+            margin-left: 25%; 
+            margin-right: 25%;
+            border-radius: 10px ; 
+            border: 1px solid white;
+        }
+          /* --- navbar --- */
+          nav{
+            background-color: rgba(0, 0, 0, 0.548);
+            height: 9vh;
+            padding: 1px;
+            margin-left: 4%;
+            margin-right: 5%;
+            margin-top: 1%;
+            border-radius: 25px;
+            border: 1px solid white;
+        }
+        nav  ul{
+            text-decoration: none;
+            list-style: none;
+            align-items: center;
+            justify-content: center;
+            padding-top: 25px;
+            display: flex;
+        }
+        a{
+            padding: 20px;
+            text-decoration: none;
+            font-size: 100%;
+            font-family: 'Roboto', sans-serif;
+            color: wheat;
+        }
+        a:hover{
+            background-color: gray;
+            border: 1px solid wheat;
+            color: black;
+            transition: 0.30s ease;
+        }
+          /* --- section --- */
+        section{
+            width: 80%;
+            height: 500px;
+            background-color: rgba(128, 128, 128, 0.644);
+            margin-top: 1.8%;
+            margin-left: 9%;
+            margin-right: 50%;
+            border: 1px solid white;
+        }
+        .box1{
+            width: 25%;
+            height: 48vh;
+            background-color: rgb(0, 0, 0);
+            float: left;
+            display: block;
+        }
+        .box1:hover{
+            background-color: rgba(128, 128, 128, 0.397);
+            transition: 0.30s ease;
+        }
+        .box2{
+            width: 25%;
+            height: 48vh;
+            background-color: rgb(0, 0, 0);
+            float: left;
+        }
+        .box2:hover{
+            background-color: rgba(128, 128, 128, 0.397);
+            transition: 0.30s ease;
+        }
+
+        .box3{
+            width: 25%;
+            height: 48vh;
+            background-color: rgb(0, 0, 0);
+            float: left;
+        }
+        .box3:hover{
+            background-color: rgba(128, 128, 128, 0.397);
+            transition: 0.30s ease;
+        }
+
+        .box4{
+            width: 25%;
+            height: 48vh;
+            background-color: rgb(0, 0, 0);
+            float: left;
+        }
+        .box4:hover{
+            background-color: rgba(128, 128, 128, 0.397);
+            transition: 0.30s ease;
+        }
+     
+
+          /* ---- footer ---- */
+        footer{
+            margin-top: 10%;
+            width: 100%;
+            height: 65px;
+            background-color: rgba(128, 128, 128, 0.644);
+            position: sticky;
+            bottom: 0%;
+        }
+    </style>
+</head>
+<body>
+    <!----  HEADER ---->
+    <header>
+        <h1> Music Lover/listener </h1>
+         </header>
+    <!----- NAV ----->
+    <nav>
+        <ul>
+            <li><a href="Rosillo_profile.html"> PROFILE </a></li>
+            <li><a href="Rosillo_hobbies.html"> HOBBIES </a></li>
+            <li><a href="Rosillo_gallery.html"> GALLERY </a></li>
+            <li><a href="Rosillo_music.html"> MUSIC LISTENER </a></li>
+        </ul>
+    </nav>
+      <!---- section ---->
+    <section>
+        <h1 style="text-align: center; width: 100%; height: 10%; background-color: rgba(87, 87, 87, 0.582); color: wheat;
+         ">  MY MOST FAVORITE MUSIC </h1>
+        <div class="box1">
+            <h1 style="text-align: center; margin-top: 20vh;"> Kitchie Nadal - Same Ground </h1>
+            <br>
+            <audio controls style="margin-left: 5%; color: black;">
+                <source src="1.mp3" type="audio/ogg">
+                <source src="1.mp3" type="audio/mp3">
+              </audio>
+        </div>
+        <div class="box2">
+           <h1 style="text-align: center; margin-top: 20vh;"> Marc Velasco - Ordinary Song </h1>
+           <br>
+           <audio controls style="margin-left: 5%;">
+            <source src="2.mp3" type="audio/ogg">
+            <source src="2.mp3" type="audio/mp3">
+           </audio>
+        </div>
+        <div class="box3">
+          <h1 style="text-align: center; margin-top: 16.5vh;"> Air Supply - Every woman in the world </h1>
+          <br>
+          <audio controls style="margin-left: 5%;">
+            <source src="4.m4a" type="audio/ogg">
+            <source src="4.m4a" type="audio/m4a">
+          </audio>
+        </div>
+        <div class="box4">
+          <h1 style="text-align: center; margin-top: 20vh;"> Jose Marie Chan - Beautiful Girl </h1>
+          <br>
+          <audio controls style="margin-left: 5%;">
+            <source src="3.m4a" type="audio/ogg">
+            <source src="3.m4a" type="audio/m4a">
+          </audio>
+        </div>
+    </section>
+
+          <!---- footer ---->
+    <footer>
+        <div style="float: right; padding-top: 10px; margin-right: 5%;">
+            <p> ©2022 Wayne Access Co. All rights reserved </p>
+        </div>
+        <div class="logo" style=" margin-left: 2%;">
+         <a href="https://www.facebook.com/profile.php?id=100078071592529" class="fa fa-facebook" target="_blank"></a>
+         <a href="https://www.instagram.com/waynebutdiff/?theme=dark" class="fa fa-instagram" target="_blank"></a>
+         
+        </div>s
+    </footer>
+
+</body>
+</html>
